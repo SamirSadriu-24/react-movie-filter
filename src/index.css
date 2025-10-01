@@ -11,3 +11,45 @@ body{
         color:white;
     }
 }
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    margin-top:50px;
+    gap: 20px;
+    border: white, 4px, solid;
+    padding: 20px;
+    border-radius: 25px;
+
+    select{
+        font-size: 15px;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+
+.movie-box{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    gap:20px;
+}
+
+
+div.film{
+    font-size: larger;
+    color:white;
+    padding: 30px;
+    min-width: 200px;
+    border: 3px, solid, red;
+}
+
+div.film:hover{
+    cursor: pointer;
+    background-color: red;
+    color:black;
+    font-weight: 800;
+}
